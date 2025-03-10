@@ -1,0 +1,115 @@
+import { StyleSheet } from "react-native";
+const styles = StyleSheet.create({
+imageRow: {
+flexDirection: "row",
+alignItems: "center",
+paddingHorizontal: 10,
+justifyContent: "space-around",
+},
+card: {
+width: 220,
+borderRadius: 12,
+backgroundColor: "white",
+overflow: "hidden",
+elevation: 5,
+shadowColor: "#000",
+shadowOffset: { width: 0, height: 3 },
+shadowOpacity: 0.3,
+shadowRadius: 5,
+borderColor: "#ccc",
+borderWidth: 1,
+marginHorizontal: 8,
+marginTop: 30,
+},
+imageContainer: {
+backgroundColor: "white",
+padding: 10,
+alignItems: "center",
+justifyContent: "center",
+},
+image: {
+width: 200,
+height: 180,
+resizeMode: "contain",
+borderColor: "#dcdcdc",
+borderWidth: 1,
+borderRadius: 10,
+},
+textContainer: {
+backgroundColor: "white",
+paddingVertical: 10,
+alignItems: "center",
+},
+description: {
+color: "#333",
+fontSize: 16,
+fontWeight: "bold",
+},
+price: {
+color: "purple",
+fontSize: 16,
+fontWeight: "bold",
+marginTop: 5,
+},
+// Modal Styles
+modalContainer: {
+flex: 1,
+backgroundColor: "rgba(0,0,0,0.6)",
+justifyContent: "center",
+alignItems: "center",
+},
+modalContent: {
+width: "85%",
+backgroundColor: "#fff",
+borderRadius: 15,
+padding: 20,
+alignItems: "center",
+elevation: 10,
+},
+modalImage: {
+width: 180,
+height: 180,
+resizeMode: "contain",
+borderRadius: 10,
+},
+modalTitle: {
+fontSize: 18,
+fontWeight: "bold",
+marginTop: 10,
+color: "#333",
+},
+modalDescription: {
+fontSize: 14,
+color: "#555",
+textAlign: "center",
+marginVertical: 10,
+},
+modalPrice: {
+fontSize: 18,
+color: "purple",
+fontWeight: "bold",
+},
+buttonContainer: {
+flexDirection: "row",
+marginTop: 15,
+width: "100%",
+justifyContent: "space-between",
+paddingHorizontal: 20,
+},
+modalButton: {
+flex: 1,
+padding: 10,
+borderRadius: 5,
+alignItems: "center",
+marginHorizontal: 5,
+backgroundColor:"green",
+},
+addToCartButton: {
+backgroundColor: "#6200EA",
+},
+modalButtonText: {
+color: "white",
+fontWeight: "bold",
+},
+});
+export default styles;
